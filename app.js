@@ -123,12 +123,24 @@
  * Answer to number 05
  * Create a BMI function for health
  */
-// function bmi_cal(weight, height) {
+// const bmi_cal = (weight, height) => {
 //     let bmi = weight / ((height * height) / 10000);
-//     return bmi;
-// }
+//     let message;
+//     if (bmi < 18.5) {
+//         ("Your are under weight");
+//     } else if (bmi >= 18.5 && bmi < 25) {
+//         ("Your weight is normal");
+//     } else if (bmi >= 25 && bmi < 30) {
+//         ("Over weight");
+//     }
+//     return message;
+// };
 // // send data: weight, height
-// console.log(bmi_cal(100, 100));
+// console.log(bmi_cal());
+
+
+
+
 
 /**
  * Answer to number 06
